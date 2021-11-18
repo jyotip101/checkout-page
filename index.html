@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Checkout Page </title>
+    <link rel="stylesheet" href="./src//scss/style.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Checkout</h1>
+        </header>
+        <main>
+            <div class="content">
+                <div class="section">
+                    <div class="contact-info">
+                        <h1>Contact infomation</h1>
+                        <div class="input-field">
+                            <label for="email">E-mail</label> 
+                            <i class="material-icons"> email </i>
+                            <input placeholder="" type="email" name="email" id="email">
+                        </div>
+                        <div class="input-filed">
+                            <label for="tel">Phone</label>
+                            <i class="material-icons"> call </i>
+                            <input placeholder="" type="tel" name="tel" id="tel">
+                        </div>
+                    </div>
+                    <div class="shipping-address">
+                        <h1>Shipping address</h1>
+                        <div class="input-field">
+                            <label for="name">Full name</label>
+                            <i class="material-icons"> person </i>
+                            <input placeholder="" type="text" name="name" id="name">
+                        </div>
+                        <div class="input-field">
+                            <label for="address">Address</label>
+                            <i class="material-icons"> address </i>
+                            <input placeholder="" type="text" name="address" id="address">
+                        </div>
+                        <div class="input-field">
+                            <label for="city">City</label>
+                            <i class="material-icons"> city </i>
+                            <input placeholder="" type="text" name="city" id="city">
+                        </div>
+                        <div class="input-field"> 
+                            <div class="country">
+                                <label for="country">Country</label>
+                                <i class="material-icons"> country </i>
+                                <input placeholder="" type="text" name="country" id="country">
+                            </div> 
+                            <div class="code">
+                                <label for="code">postal code</label>
+                                <i class="material-icons"> call </i>
+                                <input placeholder="" type="number" min="4" max="4" name="code" id="code">
+                            </div>
+                        </div>
+                        <div class="input-field">
+                            <input placeholder="" type="checkbox" name="checkbox" id="checkbox">
+                            <label for="checkbox">Save this information for next time</label>
+                        </div>
+                    </div>
+                    <button>Continue</button>
+                </div>
+                <div class="section">
+                    <div class="items">
+                        <div class="item">
+                            <img src="" alt="">
+                            <div class="item-details">
+                                <p>Vintage Backbag</p>
+                                <p>$54.99 <span>$94.99</span> </p>
+                                <div class="item-number">
+                                    <span class="mines"></span>
+                                    <span class="num"></span>
+                                    <span class="plus"></span>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="item">
+                            <img src="" alt="">
+                            <div class="item-details">
+                                <p>Levi Shoes</p>
+                                <p>$74.99 <span>$324.99</span> </p>
+                                <div class="item-number">
+                                    <span class="mines"></span>
+                                    <span class="num"></span>
+                                    <span class="plus"></span>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="shipping">
+                            <span> Shipping </span>
+                            <span> $19 </span>
+                        </div>
+                        <div class="total">
+                            <span> Total </span>
+                            <span> $148.98 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+</body>
+</html>
