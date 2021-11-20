@@ -1,0 +1,41 @@
+$bg-color: #ffff;
+$font-color: #141218;
+$logo-press-color: #199fb1;
+$main-color: rgb(13, 92, 117);
+$set-transition: all 0.2s linear;
+$footer-color: #a3d0e047;
+$box-shadow: 0 4px 8px 0 #a3d0e038, 0 6px 20px 0 #a3d0e038;
+$font-family: "Varela Round", sens-serif;
+
+*,
+*:hover {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg-color;
+  color: $font-color;
+  font-family: "Varela Round", sans-serif;
+}
+
+.container {
+  margin: 2rem 2rem;
+}
+
+/* footer section */
+footer {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  & p a {
+    color: var(--main-color);
+    & a:hover {
+      text-decoration: none;
+    }
+  }
+}

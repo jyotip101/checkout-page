@@ -1,0 +1,99 @@
+main {
+  & .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    & .info-section {
+      display: grid;
+      grid-template-columns: 90%;
+
+      & .contact-info,
+      .shipping-address {
+        & h1 {
+          font-size: 100%;
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+        }
+
+        & label {
+          font-size: 70%;
+          padding: 0.9rem 0rem;
+        }
+        & .input-field {
+          border: 2px solid $font-color;
+          border-radius: 10px;
+          display: flex;
+          padding: 0.2rem;
+          margin: 0.2rem 0 1rem 0;
+
+          & i {
+            margin: 0.1rem 0.5rem;
+          }
+
+          & input {
+            border: none;
+            width: 100%;
+            // padding: 0 1rem 0 1rem;
+            outline: none;
+            font-family: $font-family;
+          }
+        }
+
+        & .codeCantry {
+          display: grid;
+          grid-template-columns: auto auto;
+          margin: 1rem 0;
+
+          & div {
+            & .code {
+              border: 2px solid $font-color;
+              border-radius: 10px;
+              display: flex;
+              padding: 0.2rem;
+              margin: 0.2rem 0.5rem 1rem 0;
+              width: 100%;
+
+              & i {
+                margin: 0.1rem 0.5rem;
+              }
+
+              & input {
+                border: none;
+                width: 50%;
+                // padding: 0 1rem 0 1rem;
+                outline: none;
+                font-family: $font-family;
+              }
+            }
+          }
+        }
+
+        & .checkbox {
+          padding: 0.2rem;
+          margin: 0.2rem 0 1rem 0;
+          width: 100%;
+
+          & input {
+            padding: 50px;
+          }
+        }
+      }
+      & .btn {
+        margin-left: auto;
+        padding: 1rem 0;
+        & button {
+          outline: none;
+          background: $main-color;
+          color: $bg-color;
+          border: none;
+          border-radius: 30px;
+          width: fit-content;
+          padding: 0.8rem 2.5rem;
+          position: relative;
+        }
+      }
+    }
+  }
+}

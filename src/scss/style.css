@@ -1,7 +1,285 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Open+Sans:wght@300&family=Varela+Round&display=swap");
+*,
+*:hover {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  background: #ffff;
+  color: #141218;
+  font-family: "Varela Round", sans-serif;
+}
+
+.container {
+  margin: 2rem 2rem;
+}
+
+/* footer section */
+footer {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p a {
+  color: var(--main-color);
+}
+
+footer p a a:hover {
+  text-decoration: none;
+}
+
+header {
+  text-align: left;
+  font-size: 100%;
+  margin-bottom: 1rem;
+  margin-left: 12%;
+}
+
+main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .content .info-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 90%;
+      grid-template-columns: 90%;
+}
+
+main .content .info-section .contact-info h1,
+main .content .info-section .shipping-address h1 {
+  font-size: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+main .content .info-section .contact-info label,
+main .content .info-section .shipping-address label {
+  font-size: 70%;
+  padding: 0.9rem 0rem;
+}
+
+main .content .info-section .contact-info .input-field,
+main .content .info-section .shipping-address .input-field {
+  border: 2px solid #141218;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.2rem;
+  margin: 0.2rem 0 1rem 0;
+}
+
+main .content .info-section .contact-info .input-field i,
+main .content .info-section .shipping-address .input-field i {
+  margin: 0.1rem 0.5rem;
+}
+
+main .content .info-section .contact-info .input-field input,
+main .content .info-section .shipping-address .input-field input {
+  border: none;
+  width: 100%;
+  outline: none;
+  font-family: "Varela Round", sens-serif;
+}
+
+main .content .info-section .contact-info .codeCantry,
+main .content .info-section .shipping-address .codeCantry {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  margin: 1rem 0;
+}
+
+main .content .info-section .contact-info .codeCantry div .code,
+main .content .info-section .shipping-address .codeCantry div .code {
+  border: 2px solid #141218;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.2rem;
+  margin: 0.2rem 0.5rem 1rem 0;
+  width: 100%;
+}
+
+main .content .info-section .contact-info .codeCantry div .code i,
+main .content .info-section .shipping-address .codeCantry div .code i {
+  margin: 0.1rem 0.5rem;
+}
+
+main .content .info-section .contact-info .codeCantry div .code input,
+main .content .info-section .shipping-address .codeCantry div .code input {
+  border: none;
+  width: 50%;
+  outline: none;
+  font-family: "Varela Round", sens-serif;
+}
+
+main .content .info-section .contact-info .checkbox,
+main .content .info-section .shipping-address .checkbox {
+  padding: 0.2rem;
+  margin: 0.2rem 0 1rem 0;
+  width: 100%;
+}
+
+main .content .info-section .contact-info .checkbox input,
+main .content .info-section .shipping-address .checkbox input {
+  padding: 50px;
+}
+
+main .content .info-section .btn {
+  margin-left: auto;
+  padding: 1rem 0;
+}
+
+main .content .info-section .btn button {
+  outline: none;
+  background: #0d5c75;
+  color: #ffff;
+  border: none;
+  border-radius: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.8rem 2.5rem;
+  position: relative;
+}
+
+.item-section {
+  background: #a3d0e047;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.item-section .items {
+  margin: 0;
+}
+
+.item-section .items .item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  margin: 2rem 0;
+}
+
+.item-section .items .item img {
+  height: 140px;
+  border-radius: 10px;
+  margin-right: 1.5rem;
+}
+
+.item-section .items .item .item-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+}
+
+.item-section .items .item .item-details .price {
+  margin-top: -3rem;
+  color: #0d5c75;
+}
+
+.item-section .items .item .item-details .price span {
+  color: #141218;
+}
+
+.item-section .items .item .item-details .item-number {
+  color: #141218;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  border: 2px solid #141218;
+  padding: 0.5rem 1rem;
+  margin: 0 2rem 0 0;
+  border-radius: 15px;
+}
+
+.item-section .items .item .item-details .item-number .material-icons {
+  padding: 1px;
+  border-radius: 6px;
+  background-color: #ddd;
+}
+
+.item-section .price-items {
+  margin-top: 5rem;
+}
+
+.item-section .price-items hr {
+  margin: 0.8rem 0;
+}
+
+.item-section .price-items .shipping,
+.item-section .price-items .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    margin: 1rem 1rem;
+  }
+  .container main .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .container main .content .item-section {
+    width: auto;
+    height: initial;
+  }
+  header {
+    text-align: left;
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

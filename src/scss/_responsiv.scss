@@ -1,0 +1,19 @@
+@media screen and (max-width: 700px) {
+  .container {
+    margin: 1rem 1rem;
+    main {
+      & .content {
+        flex-direction: column-reverse;
+
+        & .item-section {
+          width: auto;
+          height: initial;
+        }
+      }
+    }
+  }
+  header {
+    text-align: left;
+    margin-left: 0;
+  }
+}

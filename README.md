@@ -29,21 +29,25 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact) 
+- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 <!-- OVERVIEW -->
 
 ## Overview
- 
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
- ## Features
+
+- Html
+- CSS
+- [Google Font](https://fonts.googleapis.com/icon?family=Material+Icons)
+
+## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
-
 
 ## How To Use
 
@@ -55,15 +59,15 @@ $ git clone https://github.com/jyotip101/checkout-page.git
 
 # run checkout page
 $ open checkout-page folder on browser
- 
+
 ```
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale --> 
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 ## Contact
 
 - Website [jyotip](https://jyotip.netlify.app/)
-- GitHub [@jyotip101](https://github.com/jyotip101/) 
+- GitHub [@jyotip101](https://github.com/jyotip101/)
 - Twitter [@jyotipatil77100](https://twitter.com/jyotipatil77100/)
