@@ -12,9 +12,9 @@
       Demo
     </a>
     <span> | </span>
-    <!-- <a href=""> -->
+    <a href="https://devchallenges.io/solutions/tFTX6R646GGgH4fCnedH">
       Solution
-    <!-- </a> -->
+    </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
       Challenge
@@ -34,6 +34,8 @@
 <!-- OVERVIEW -->
 
 ## Overview
+
+![Screenshot](https://user-images.githubusercontent.com/66724598/142727413-98142067-a99b-4553-95a9-95af8dd0742c.png)
 
 ### Built With
 
