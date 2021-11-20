@@ -4,16 +4,28 @@
     main {
       & .content {
         flex-direction: column-reverse;
-
+        & .info-section {
+          grid-template-columns: 100%;
+        }
         & .item-section {
           width: auto;
-          height: initial;
+          & .items {
+            & .item {
+              & img {
+                height: 100px;
+              }
+
+              & .item-details {
+                font-size: 80%;
+              }
+            }
+          }
         }
       }
     }
-  }
-  header {
-    text-align: left;
-    margin-left: 0;
+    header {
+      text-align: left;
+      margin-left: 0;
+    }
   }
 }

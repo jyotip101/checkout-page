@@ -1,10 +1,7 @@
-$bg-color: #ffff;
-$font-color: #141218;
-$logo-press-color: #199fb1;
-$main-color: rgb(13, 92, 117);
-$set-transition: all 0.2s linear;
-$footer-color: #a3d0e047;
-$box-shadow: 0 4px 8px 0 #a3d0e038, 0 6px 20px 0 #a3d0e038;
+$bg-color: #f7f7f7;
+$font-color: #2b3238;
+$main-color: #f74a17;
+$footer-color: #d6dced;
 $font-family: "Varela Round", sens-serif;
 
 *,
@@ -21,21 +18,27 @@ body {
 }
 
 .container {
-  margin: 2rem 2rem;
-}
-
-/* footer section */
-footer {
-  margin-top: 50px;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-
-  & p a {
-    color: var(--main-color);
-    & a:hover {
-      text-decoration: none;
+  margin: 1rem 1rem;
+  & header {
+    text-align: left;
+    font-size: 100%;
+    margin-bottom: 1rem;
+    margin-left: 11.5%;
+  }
+  & footer {
+    display: block;
+    & p {
+      margin-top: 50px;
+      margin-bottom: 10px;
+      text-align: center;
+      & a {
+        color: var(--main-color);
+        &:hover {
+          text-decoration: none;
+        }
+      }
     }
   }
 }
+
+/* footer section */

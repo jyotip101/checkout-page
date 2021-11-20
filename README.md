@@ -8,9 +8,9 @@
 
 <div align="center">
   <h3>
-    <!-- <a href=""> -->
+    <a href="https://jyotip101.github.io/checkout-page/">
       Demo
-    <!-- </a> -->
+    </a>
     <span> | </span>
     <!-- <a href=""> -->
       Solution
@@ -30,7 +30,7 @@
   - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [How To Use](#how-to-use)
 <!-- OVERVIEW -->
 
 ## Overview
@@ -40,7 +40,7 @@
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Html
-- CSS
+- [SCSS](https://sass-lang.com/)
 - [Google Font](https://fonts.googleapis.com/icon?family=Material+Icons)
 
 ## Features
@@ -51,20 +51,16 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/jyotip101/checkout-page.git
 
 # run checkout page
-$ open checkout-page folder on browser
+open index.html folder on browser
 
 ```
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 ## Contact
 

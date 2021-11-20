@@ -8,45 +8,41 @@
 }
 
 body {
-  background: #ffff;
-  color: #141218;
+  background: #f7f7f7;
+  color: #2b3238;
   font-family: "Varela Round", sans-serif;
 }
 
 .container {
-  margin: 2rem 2rem;
+  margin: 1rem 1rem;
 }
 
-/* footer section */
-footer {
-  margin-top: 50px;
-  margin-bottom: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-footer p a {
-  color: var(--main-color);
-}
-
-footer p a a:hover {
-  text-decoration: none;
-}
-
-header {
+.container header {
   text-align: left;
   font-size: 100%;
   margin-bottom: 1rem;
-  margin-left: 12%;
+  margin-left: 11.5%;
 }
 
+.container footer {
+  display: block;
+}
+
+.container footer p {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container footer p a {
+  color: var(--main-color);
+}
+
+.container footer p a:hover {
+  text-decoration: none;
+}
+
+/* footer section */
 main .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,13 +81,14 @@ main .content .info-section .shipping-address label {
 
 main .content .info-section .contact-info .input-field,
 main .content .info-section .shipping-address .input-field {
-  border: 2px solid #141218;
+  border: 2px solid #2b3238;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0.2rem;
+  padding: 0.5rem;
   margin: 0.2rem 0 1rem 0;
+  width: 100%;
 }
 
 main .content .info-section .contact-info .input-field i,
@@ -105,6 +102,7 @@ main .content .info-section .shipping-address .input-field input {
   width: 100%;
   outline: none;
   font-family: "Varela Round", sens-serif;
+  background-color: transparent;
 }
 
 main .content .info-section .contact-info .codeCantry,
@@ -118,7 +116,7 @@ main .content .info-section .shipping-address .codeCantry {
 
 main .content .info-section .contact-info .codeCantry div .code,
 main .content .info-section .shipping-address .codeCantry div .code {
-  border: 2px solid #141218;
+  border: 2px solid #2b3238;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,6 +135,7 @@ main .content .info-section .contact-info .codeCantry div .code input,
 main .content .info-section .shipping-address .codeCantry div .code input {
   border: none;
   width: 50%;
+  background-color: transparent;
   outline: none;
   font-family: "Varela Round", sens-serif;
 }
@@ -146,6 +145,8 @@ main .content .info-section .shipping-address .checkbox {
   padding: 0.2rem;
   margin: 0.2rem 0 1rem 0;
   width: 100%;
+  font-weight: 400;
+  font-size: 150%;
 }
 
 main .content .info-section .contact-info .checkbox input,
@@ -160,8 +161,8 @@ main .content .info-section .btn {
 
 main .content .info-section .btn button {
   outline: none;
-  background: #0d5c75;
-  color: #ffff;
+  background: #f74a17;
+  color: #f7f7f7;
   border: none;
   border-radius: 30px;
   width: -webkit-fit-content;
@@ -172,7 +173,7 @@ main .content .info-section .btn button {
 }
 
 .item-section {
-  background: #a3d0e047;
+  background: #d6dced;
   border-radius: 10px;
   padding: 1.5rem;
   width: -webkit-fit-content;
@@ -198,7 +199,6 @@ main .content .info-section .btn button {
 .item-section .items .item img {
   height: 140px;
   border-radius: 10px;
-  margin-right: 1.5rem;
 }
 
 .item-section .items .item .item-details {
@@ -213,27 +213,31 @@ main .content .info-section .btn button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: left;
+  margin-left: 1rem;
 }
 
 .item-section .items .item .item-details .price {
-  margin-top: -3rem;
-  color: #0d5c75;
+  color: #f74a17;
+  font-size: 90%;
 }
 
 .item-section .items .item .item-details .price span {
-  color: #141218;
+  color: #2b3238;
 }
 
 .item-section .items .item .item-details .item-number {
-  color: #141218;
+  color: #2b3238;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  border: 2px solid #141218;
+  border: 2px solid #2b3238;
   padding: 0.5rem 1rem;
   margin: 0 2rem 0 0;
   border-radius: 15px;
@@ -242,7 +246,7 @@ main .content .info-section .btn button {
 .item-section .items .item .item-details .item-number .material-icons {
   padding: 1px;
   border-radius: 6px;
-  background-color: #ddd;
+  color: #f74a17;
 }
 
 .item-section .price-items {
@@ -273,11 +277,20 @@ main .content .info-section .btn button {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .container main .content .info-section {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
   .container main .content .item-section {
     width: auto;
-    height: initial;
   }
-  header {
+  .container main .content .item-section .items .item img {
+    height: 100px;
+  }
+  .container main .content .item-section .items .item .item-details {
+    font-size: 80%;
+  }
+  .container header {
     text-align: left;
     margin-left: 0;
   }
